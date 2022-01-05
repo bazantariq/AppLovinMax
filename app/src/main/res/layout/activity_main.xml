@@ -9,18 +9,24 @@
     android:layout_margin="20dp"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image" />
     <Button
+        android:layout_below="@id/image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Banner!"
         android:id="@+id/banner" />
 
     <Button
-        android:layout_below="@id/banner"
+        android:id="@+id/interstital"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Interstitial!"
-        android:id="@+id/interstital" />
+        android:layout_below="@id/banner"
+        android:text="Interstitial!" />
 
     <LinearLayout
         android:layout_alignParentBottom="true"
