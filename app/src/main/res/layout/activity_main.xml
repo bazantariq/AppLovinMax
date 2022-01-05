@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Banner!"
+        android:id="@+id/banner" />
+
+    <Button
+        android:layout_below="@id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interstitial!"
+        android:id="@+id/interstital" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adLayout"
+        android:orientation="vertical"
+        />
+
+</RelativeLayout>
