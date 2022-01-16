@@ -28,6 +28,12 @@
         android:layout_below="@id/banner"
         android:text="Interstitial!" />
 
+    <FrameLayout
+        android:layout_below="@id/interstital"
+        android:id="@+id/native_ad_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <LinearLayout
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
