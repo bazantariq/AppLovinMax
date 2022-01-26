@@ -14,12 +14,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/image" />
+
     <Button
-        android:layout_below="@id/image"
+        android:id="@+id/banner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Banner!"
-        android:id="@+id/banner" />
+        android:layout_below="@id/image"
+        android:text="Banner!" />
 
     <Button
         android:id="@+id/interstital"
@@ -27,19 +28,19 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/banner"
         android:text="Interstitial!" />
-
-    <FrameLayout
-        android:layout_below="@id/interstital"
-        android:id="@+id/native_ad_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <LinearLayout
-        android:layout_alignParentBottom="true"
+    <Button
+        android:id="@+id/native_template"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/adLayout"
-        android:orientation="vertical"
-        />
+        android:layout_below="@id/interstital"
+        android:text="Native Template" />
+    <Button
+        android:id="@+id/native_manual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/native_template"
+        android:text="Native Manual" />
+
+
 
 </RelativeLayout>

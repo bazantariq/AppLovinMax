@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.applovinmax">
+    package="com.codetrix.applovin">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppLovinMax">
         <activity
-            android:name=".MainActivity"
+            android:name="com.codetrix.applovin.InterstitialActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.codetrix.applovin.MediationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.codetrix.applovin.NativeTemplateActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.codetrix.applovin.BannerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.codetrix.applovin.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,9 +31,9 @@
             </intent-filter>
         </activity>
 
-        <meta-data android:name="applovin.sdk.key"
-            android:value="@string/sdk_key"/>
-
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="@string/sdk_key" />
     </application>
 
 </manifest>

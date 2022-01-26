@@ -1,4 +1,4 @@
-package com.example.applovinmax;
+package com.codetrix.applovin;
 
 import android.content.Context;
 
