@@ -10,7 +10,7 @@ Please check out AppLovin [documentation](https://dash.applovin.com/documentatio
 ## Demo Apps
 To get started with the demo app, follow the instructions below:
 
-[![Banner](https://img.youtube.com/vi/yE2HmVygjFM/0.jpg)](https://www.youtube.com/watch?yE2HmVygjFM)
+[![Banner](https://img.youtube.com/vi/yE2HmVygjFM/0.jpg)](https://www.youtube.com/watch?v=yE2HmVygjFM&feature=youtu.be)
 
 1. Open your desired project in Android Studio: `DemoApp-Java` or `DemoApp-Kotlin`.
 2. Verify that the dependency `implementation 'com.applovin:applovin-sdk:+'` is included in your `build.gradle (Module: app)`.
