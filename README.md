@@ -5,10 +5,12 @@ MAX is AppLovin's in-app monetization solution.
 
 Move beyond the traditional monetization solution and integrate MAX. MAX is a single unbiased auction where advertisers get equal access to all ad inventory and bid simultaneously, which drives more competition and higher CPMs for you. You can read more about it [here](https://www.applovin.com/max-header-bidding).
 
-Please check out our [documentation](https://dash.applovin.com/documentation/mediation/android/getting-started) to get started on integrating and enabling mediated networks using our guides.
+Please check out AppLovin [documentation](https://dash.applovin.com/documentation/mediation/android/getting-started) to get started on integrating and enabling mediated networks using our guides.
 
 ## Demo Apps
-To get started with the demo apps, follow the instructions below:
+To get started with the demo app, follow the instructions below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yE2HmVygjFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1. Open your desired project in Android Studio: `DemoApp-Java` or `DemoApp-Kotlin`.
 2. Verify that the dependency `implementation 'com.applovin:applovin-sdk:+'` is included in your `build.gradle (Module: app)`.
