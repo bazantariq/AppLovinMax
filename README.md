@@ -7,10 +7,23 @@ Move beyond the traditional monetization solution and integrate MAX. MAX is a si
 
 Please check out AppLovin [documentation](https://dash.applovin.com/documentation/mediation/android/getting-started) to get started on integrating and enabling mediated networks using our guides.
 
-## Demo Apps
+## Demo Videos
 To get started with the demo app, follow the instructions below:
 
 [![Banner](https://img.youtube.com/vi/yE2HmVygjFM/0.jpg)](https://www.youtube.com/watch?v=yE2HmVygjFM&feature=youtu.be)
+
+
+A video:
+```youtube-embed
+{
+   "width": "560",
+   "height": "315",
+   "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+   "title": "YouTube video player",
+   "frameborder": "0",
+   "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+   "allowfullscreen": true
+}
 
 1. Open your desired project in Android Studio: `DemoApp-Java` or `DemoApp-Kotlin`.
 2. Verify that the dependency `implementation 'com.applovin:applovin-sdk:+'` is included in your `build.gradle (Module: app)`.
