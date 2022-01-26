@@ -12,7 +12,7 @@ To get started with the demo app, follow the instructions below:
 
 [![Banner](https://img.youtube.com/vi/yE2HmVygjFM/0.jpg)](https://www.youtube.com/watch?v=yE2HmVygjFM&feature=youtu.be)
 
-
+<video src='https://www.youtube.com/embed/yE2HmVygjFM' width=180/>
 <p align="center">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/yE2HmVygjFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
