@@ -10,17 +10,10 @@ Please check out AppLovin [documentation](https://dash.applovin.com/documentatio
 ## Demo Videos
 To get started with the demo app, follow the instructions below:
 
-[![Banner](https://img.youtube.com/vi/yE2HmVygjFM/0.jpg)](https://www.youtube.com/watch?v=yE2HmVygjFM&feature=youtu.be)
-
-<p align="center">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/yE2HmVygjFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
-
-1. Open your desired project in Android Studio: `DemoApp-Java` or `DemoApp-Kotlin`.
-2. Verify that the dependency `implementation 'com.applovin:applovin-sdk:+'` is included in your `build.gradle (Module: app)`.
-3. Update the `applovin.sdk.key` value in `AndroidManifest.xml` file with your AppLovin SDK key associated with your account.
-4. Update the package with your own unique identifier associated with the application you will create (or already created, if it is an existing app) in the MAX dashboard.
-5. Update the unique MAX ad unit id value within each ad's activity code. Each ad format will correspond to a unique MAX ad unit ID you created in the AppLovin dashboard for the package used before. 
+1. Banner Ads: https://youtu.be/yE2HmVygjFM
+2. Interstitial Ads: https://youtu.be/gdbglhgvEYs
+3. Native Ads: https://youtu.be/WmHEWj9e59w
+4. Bidding / Mediation:
 <img src="https://user-images.githubusercontent.com/35604864/151120714-3b54f31d-9255-42ad-bd28-b009c099bf3c.jpg" width="350" height="700" /> 
 
 ## Error Codes
