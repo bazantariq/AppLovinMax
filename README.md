@@ -13,17 +13,11 @@ To get started with the demo app, follow the instructions below:
 [![Banner](https://img.youtube.com/vi/yE2HmVygjFM/0.jpg)](https://www.youtube.com/watch?v=yE2HmVygjFM&feature=youtu.be)
 
 
-A video:
-```youtube-embed
-{
-   "width": "560",
-   "height": "315",
-   "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-   "title": "YouTube video player",
-   "frameborder": "0",
-   "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-   "allowfullscreen": true
-}
+A video:<html>
+	<body>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/jQ8dZwTw8wQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</body>
+</html>
 
 1. Open your desired project in Android Studio: `DemoApp-Java` or `DemoApp-Kotlin`.
 2. Verify that the dependency `implementation 'com.applovin:applovin-sdk:+'` is included in your `build.gradle (Module: app)`.
