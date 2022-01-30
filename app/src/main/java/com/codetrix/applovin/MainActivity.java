@@ -44,7 +44,14 @@ public class MainActivity extends AppCompatActivity{
             }
         });
 
-        findViewById(R.id.native_manual).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.mrec).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,ActivityMREC.class));
+            }
+        });
+
+        findViewById(R.id.bidding).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, MediationActivity.class));

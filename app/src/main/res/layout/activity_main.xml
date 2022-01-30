@@ -35,11 +35,17 @@
         android:layout_below="@id/interstital"
         android:text="Native Template" />
     <Button
-        android:id="@+id/native_manual"
+        android:id="@+id/mrec"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/native_template"
-        android:text="Native Manual" />
+        android:text="MRECs" />
+    <Button
+        android:id="@+id/bidding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mrec"
+        android:text="Bidding / Mediation" />
 
 
 

@@ -10,19 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppLovinMax">
         <activity
-            android:name="com.codetrix.applovin.InterstitialActivity"
+            android:name=".ActivityMREC"
             android:exported="false" />
         <activity
-            android:name="com.codetrix.applovin.MediationActivity"
+            android:name=".InterstitialActivity"
             android:exported="false" />
         <activity
-            android:name="com.codetrix.applovin.NativeTemplateActivity"
+            android:name=".MediationActivity"
             android:exported="false" />
         <activity
-            android:name="com.codetrix.applovin.BannerActivity"
+            android:name=".NativeTemplateActivity"
             android:exported="false" />
         <activity
-            android:name="com.codetrix.applovin.MainActivity"
+            android:name=".BannerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
