@@ -13,8 +13,10 @@ To get started with the demo app, follow the instructions below:
 1. Banner Ads: https://youtu.be/yE2HmVygjFM
 2. Interstitial Ads: https://youtu.be/gdbglhgvEYs
 3. Native Ads: https://youtu.be/WmHEWj9e59w
-4. Bidding / Mediation:
-<img src="https://user-images.githubusercontent.com/35604864/151120714-3b54f31d-9255-42ad-bd28-b009c099bf3c.jpg" width="350" height="700" /> 
+4. MREC(medium rectangle) Ads: https://youtu.be/yFshr78b74Q
+5. Bidding / Mediation:
+<img src="https://user-images.githubusercontent.com/35604864/151718441-39175ec1-3d4f-4daa-be90-5b71857309f2.jpg" width="350" height="700" /> 
+
 
 ## Error Codes
 | Code          | Description   |
