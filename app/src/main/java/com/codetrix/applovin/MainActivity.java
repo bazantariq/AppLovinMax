@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity{
             @Override
             public void onClick(View view) {
 
-               // AppLovinSdk.getInstance( MainActivity.this ).showMediationDebugger();
+                AppLovinSdk.getInstance( MainActivity.this ).showMediationDebugger();
 
             }
         });
