@@ -21,6 +21,14 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        AppLovinSdk.getInstance(this).setMediationProvider("max");
+        AppLovinSdk.initializeSdk(this, new AppLovinSdk.SdkInitializationListener() {
+            @Override
+            public void onSdkInitialized(AppLovinSdkConfiguration config) {
+
+            }
+        });
+
 
 
         findViewById(R.id.banner).setOnClickListener(new View.OnClickListener() {
@@ -54,21 +62,12 @@ public class MainActivity extends AppCompatActivity{
         findViewById(R.id.bidding).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, MediationActivity.class));
-            }
-        });
 
-
-        AppLovinSdk.getInstance(this).setMediationProvider("max");
-        AppLovinSdk.initializeSdk(this, new AppLovinSdk.SdkInitializationListener() {
-            @Override
-            public void onSdkInitialized(AppLovinSdkConfiguration config) {
-
+               // AppLovinSdk.getInstance( MainActivity.this ).showMediationDebugger();
 
             }
         });
+
+
     }
-
-
-
 }

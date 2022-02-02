@@ -40,6 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/native_template"
         android:text="MRECs" />
+
     <Button
         android:id="@+id/bidding"
         android:layout_width="match_parent"
