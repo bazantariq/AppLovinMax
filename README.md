@@ -14,7 +14,7 @@ To get started with the demo app, follow the instructions below:
 2. Interstitial Ads: https://youtu.be/gdbglhgvEYs
 3. Native Ads: https://youtu.be/WmHEWj9e59w
 4. MREC(medium rectangle) Ads: https://youtu.be/yFshr78b74Q
-5. Bidding / Mediation:
+5. Bidding / Mediation: https://youtu.be/LUgcVSIzfmk
 <img src="https://user-images.githubusercontent.com/35604864/151718441-39175ec1-3d4f-4daa-be90-5b71857309f2.jpg" width="350" height="700" /> 
 
 
